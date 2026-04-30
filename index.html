@@ -24,19 +24,118 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">GIS Portfolio</a></li>
-                    <li class="nav-item"><a class="nav-link" href=".html">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://github.com/cleorose">GitHub</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./assets/cy_resume_june2025.pdf">Resume</a></li>
+                    <li class="nav-item"><a class="nav-link"
+                            href="https://github.com/cleorose/cy-gis-tools/tree/main">GitHub</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
     <!-- Page content-->
     <div class="container">
-        <div class="text-center mt-5">
-            <h1>Updated Portfolio Coming Soon!</h1>
-            <p class="lead">Come back in a week or two and check it out!</p>
-            <p>- Cleo</p>
+        <div class="text-left mt-5">
+            <h1>GIS Portfolio</h1>
+            <p class="lead"></p>
+            <p>Thanks for visiting my website. I’m a graduate student in GIS and Natural Resource Science and
+                Management with a focused on remote sensing and climate-resilient landscapes. I’m interested in building
+                reproducible geospatial workflows and datasets for ecosystem monitoring, green infrastructure, and
+                environmental justice. This site showcases some of the work I’ve made while developing these skills.</p>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <div class="row g-4">
+
+            <!-- Project 1 -->
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="assets/soilmoisture.png" class="card-img-top project-img" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Minnesota's Wet Spring 2024</h5>
+                        <p class="card-text">Investigating soil moisture and crop health with optical
+                            and radar-based
+                            remotely sensed data [ArcGIS StoryMap]</p>
+                        <a href="projects/soil_moisture.html" class="stretched-link"></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="assets/davenport1.png" class="card-img-top project-img" alt="Project 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Mapping Mississippi River Flooding in Davenport, Iowa</h5>
+                        <p class="card-text">Detecting 2018 and 2019 high water levels using MNDWI from Sentinel-2
+                            imagery and hydrological data [PDF]</p>
+                        <a href="./assets/cy_flood_extent_mapping_mndwi.pdf" class="stretched-link"></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="assets/greeninghotspots.png" class="card-img-top project-img" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Patterns in Urban Greening: Modular Trend Raster Hotspot Analysis</h5>
+                        <p class="card-text">This is a fully reproducible batch-processing tool for aggregating binary
+                            trend rasters from LandTrendr or similar sources at multiple spatial scales and running
+                            custom hotspot analysis with multiple parameters.</p>
+                        <a href="https://github.com/cleorose/cy-gis-tools/blob/main/trend_raster_hotspots.ipynb"
+                            class="stretched-link"></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="assets/manoomin.png" class="card-img-top project-img" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Manoomin, Native Plant Communities, and Tribal Lands</h5>
+                        <p class="card-text">Cartography sample</p>
+                        <a href="./assets/ManoominLayout.pdf" class="stretched-link"></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Add more projects by copying this block -->
+
+            <!-- Project 5 -->
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="assets/changedetection.png" class="card-img-top project-img" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Python-Based Image Change Detection</h5>
+                        <p class="card-text">Automatically thresholds and classifies Sentinel-2
+                            imagery using
+                            multispectral
+                            indices, then detects and visualizes change extent [Jupyter Notebook]</p>
+                        <a href="https://github.com/cleorose/cy-gis-tools/blob/main/index_based_change_detection.ipynb"
+                            class="stretched-link"></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 6 -->
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="assets/fantasymap.png" class="card-img-top project-img" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Converting Fantasy Maps to GeoTIFFs</h5>
+                        <p class="card-text">Use an illustrated map's scale bar to georeference the image, overlay it on
+                            a Web Mercator basemap of Earth, and save it as a GeoTIFF so you can calculate real
+                            distances for your D&D campaign, etc.</p>
+                        <a href="https://github.com/cleorose/cy-gis-tools/blob/main/georeference_fantasy_maps.ipynb"
+                            class="stretched-link"></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Add more projects by copying this block -->
+
         </div>
     </div>
     <!-- Bootstrap core JS-->
